@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="theme-color" content="#0a0812">
+    <title>Happy Mother's Day 💕</title>
+    <meta name="description" content="A cinematic tribute to Mom. Happy Mother's Day!">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,700;1,700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="heart-loader"></div>
+            <p>Creating something beautiful...</p>
+        </div>
+    </div>
+
+    <div id="cursor-glow"></div>
+
+    <div class="background-wrapper">
+        <div class="gradient-bg"></div>
+        <div id="petals-container"></div>
+    </div>
+
+    <nav>
+        <div class="logo">MOM ❤️</div>
+        <div class="nav-controls">
+            <button id="theme-toggle" aria-label="Toggle Theme"><i class="fas fa-moon"></i></button>
+            <button id="music-toggle" aria-label="Play Music"><i class="fas fa-music"></i></button>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- ── HERO ── -->
+        <section id="hero" class="section">
+            <div class="hero-content">
+                <div class="hero-badge">✦ Happy Mother's Day ✦</div>
+                <h1 class="hero-title">
+                    <span class="line3d" data-text="To the Woman">To the Woman</span>
+                    <span class="line3d" data-text="Who Is My">Who Is My</span>
+                    <span class="line3d accent" data-text="Whole World ❤️">Whole World ❤️</span>
+                </h1>
+                <div class="hero-divider"></div>
+                <p class="subtitle">"Thank you for every hug, every sacrifice, and every smile."</p>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- ── TIMELINE ── -->
+        <section id="timeline" class="section">
+            <h2 class="section-title">A Journey of Love</h2>
+            <div class="timeline-container">
+                <div class="timeline-item left">
+                    <div class="timeline-card glass">
+                        <div class="card-icon">🌸</div>
+                        <h3>Infinite Patience</h3>
+                        <p>“Maa ka pyaar WiFi ki tarah hota hai — dikhta nahi, par hamesha connected rehta hai 💕”</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-card glass">
+                        <div class="card-icon">✨</div>
+                        <h3>Guiding Light</h3>
+                        <p>“Maa ka hug = duniya ka best feeling 🤗</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-card glass">
+                        <div class="card-icon">💖</div>
+                        <h3>Constant Support</h3>
+                        <p>“Maa ke liye ek din nahi, poori zindagi kam hai 💖”</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── GALLERY / PHOTO ALBUM ── -->
+        <section id="gallery" class="section">
+            <h2 class="section-title">Cherished Memories</h2>
+
+            <div class="album-wrap">
+                <!-- Book spine shadow -->
+                <div class="book-spine"></div>
+
+                <!-- BOOK -->
+                <div class="book" id="album-book">
+
+                    <!-- Cover (front) -->
+                    <div class="book-page cover" id="cover">
+                        <div class="page-content cover-content">
+                            <div class="cover-roses">🌸🌹🌸</div>
+                            <h3 class="cover-title">Our Memories</h3>
+                            <p class="cover-sub">A Photo Album for Mom</p>
+                            <div class="cover-heart">❤️</div>
+                            <p class="cover-tap"><i class="fas fa-hand-pointer"></i> Tap to open</p>
+                        </div>
+                    </div>
+
+                    <!-- Page 1 – photo 1 -->
+                    <div class="book-page" data-page="1">
+                        <div class="page-content">
+                            <div class="page-photo">
+                                <img src="WhatsApp Image 2026-05-08 at 9.07.20 PM (2).jpeg" alt="Memory 1">
+                            </div>
+                            <p class="page-caption">💕 Always in my heart</p>
+                            <span class="page-num">1</span>
+                        </div>
+                    </div>
+
+                    <!-- Page 2 – photo 2 -->
+                    <div class="book-page" data-page="2">
+                        <div class="page-content">
+                            <div class="page-photo">
+                                <img src="WhatsApp Image 2026-05-08 at 9.07.20 PM (4).jpeg" alt="Memory 2">
+                            </div>
+                            <p class="page-caption">🌸 Beautiful moments</p>
+                            <span class="page-num">2</span>
+                        </div>
+                    </div>
+
+                    <!-- Page 3 – photo 3 -->
+                    <div class="book-page" data-page="3">
+                        <div class="page-content">
+                            <div class="page-photo">
+                                <img src="WhatsApp Image 2026-05-08 at 9.07.20 PM.jpeg" alt="Memory 3">
+                            </div>
+                            <p class="page-caption">❤️ Love you forever</p>
+                            <span class="page-num">3</span>
+                        </div>
+                    </div>
+
+                    <!-- Page 4 – photo 4 -->
+                    <div class="book-page" data-page="4">
+                        <div class="page-content">
+                            <div class="page-photo">
+                                <img src="WhatsApp Image 2026-05-08 at 9.07.20 PM (5).jpeg" alt="Memory 4">
+                            </div>
+                            <p class="page-caption">✨ Shining memories</p>
+                            <span class="page-num">4</span>
+                        </div>
+                    </div>
+
+                    <!-- Page 5 – photo 5 -->
+                    <div class="book-page" data-page="5">
+                        <div class="page-content">
+                            <div class="page-photo">
+                                <img src="WhatsApp Image 2026-05-08 at 9.07.20 PM (1).jpeg" alt="Memory 5">
+                            </div>
+                            <p class="page-caption">💖 My everything</p>
+                            <span class="page-num">5</span>
+                        </div>
+                    </div>
+
+                    <!-- Page 6 – photo 6 -->
+                    <div class="book-page" data-page="6">
+                        <div class="page-content">
+                            <div class="page-photo">
+                                <img src="WhatsApp Image 2026-05-08 at 9.07.20 PM (3).jpeg" alt="Memory 6">
+                            </div>
+                            <p class="page-caption">🌺 Cherished forever</p>
+                            <span class="page-num">6</span>
+                        </div>
+                    </div>
+
+                    <!-- Back cover -->
+                    <div class="book-page back-cover" data-page="7">
+                        <div class="page-content cover-content">
+                            <div class="cover-roses">🌹🌸🌹</div>
+                            <h3 class="cover-title">The End</h3>
+                            <p class="cover-sub">Made with ❤️ for Mom</p>
+                            <p class="cover-tap"><i class="fas fa-redo"></i> Tap to restart</p>
+                        </div>
+                    </div>
+
+                </div><!-- /book -->
+            </div><!-- /album-wrap -->
+
+            <!-- Nav buttons -->
+            <div class="album-nav">
+                <button class="album-btn" id="album-prev"><i class="fas fa-chevron-left"></i> Prev</button>
+                <span class="album-counter" id="album-counter">Cover</span>
+                <button class="album-btn" id="album-next">Next <i class="fas fa-chevron-right"></i></button>
+            </div>
+
+        </section>
+
+        <!-- ── QUOTES ── -->
+        <section id="quotes" class="section">
+            <div class="quote-container glass">
+                <i class="fas fa-quote-left quote-icon"></i>
+                <div id="typing-quote"></div>
+                <p id="quote-author"></p>
+            </div>
+        </section>
+
+        <!-- ── SURPRISE ── -->
+        <section id="surprise" class="section">
+            <div class="surprise-content">
+                <h2 class="section-title" style="margin-bottom:2rem">I have a surprise for you...</h2>
+                <button id="surprise-btn" class="premium-btn"><span>Click for Surprise 🎁</span></button>
+            </div>
+        </section>
+
+        <!-- ── LOVE ── -->
+        <section id="love-mom" class="section">
+            <div class="floating-hearts-container" id="floating-hearts"></div>
+            <div class="love-container">
+                <h2 class="glowing-heart-text">I Love You, Mom ❤️</h2>
+            </div>
+        </section>
+
+        <!-- ── VISUALIZER ── -->
+        <section id="music-visualizer" class="section">
+            <div class="visualizer-container">
+                <div class="bars"></div>
+                <p>Healing Melodies for You</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Surprise Overlay -->
+    <div id="surprise-overlay">
+        <div class="overlay-content glass">
+            <span class="close-overlay">&times;</span>
+            <h2 class="pop-up-text">You are my World! 🌍❤️</h2>
+            <p>Maa ka pyaar lifetime premium version hota hai 👑</p>
+        </div>
+    </div>
+    <canvas id="confetti-canvas"></canvas>
+
+    <footer>
+        <p>Made with Love for Mom &copy; 2026</p>
+        <div class="footer-heart"><i class="fas fa-heart"></i></div>
+    </footer>
+
+    <audio id="bg-music" loop>
+        <source src="Tu Jo Mila Bajrangi Bhaijaan 320 Kbps.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
